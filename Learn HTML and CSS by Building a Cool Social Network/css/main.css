@@ -152,8 +152,8 @@ header .search-area ul li {
 	box-shadow: 0px 2px 5px -1px rgba(0, 0, 0, 0.75);
 	overflow: auto;
 }
-#content-area .widget-box .head {
-}
+/* #content-area .widget-box .head {
+} */
 #content-area .widget-box .head .widget-icon-container {
 	display: inline-block;
 }
@@ -192,4 +192,44 @@ header .search-area ul li {
 	float: left;
 	width: 55%;
 	margin: 0 2.5%;
+}
+#content-area .main-area .widget-box.submenu { /*this link right here means the element of the last widget-box AND post ".widget-box.sub-menu"*/
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+
+#content-area .main-area .submenu ul {
+	padding: 0;
+	
+}
+#content-area .main-area .submenu ul li{
+	display: inline-block;
+	padding: 10px;
+	width: 20%;
+	float: left;
+	text-align: center;
+	border-bottom: 3px solid #fff;
+	transition: all .4s ease-in-out;
+	cursor: pointer; /*turns the cursor into a hand*/
+	
+
+}
+#content-area .main-area .submenu ul li:hover{
+	border-bottom: 3px solid #2196f3;
+	color: #2196f3;
+
+}
+#content-area .main-area .submenu ul li:nth-child(5){
+	padding: 28px 0 21px;
+
+}
+#content-area .main-area .submenu ul li .fa{
+	font-size: 20px;
+
+}
+#content-area .main-area .submenu ul li span{
+	display: block;
+	margin: 15px 0 0 0;
+	font-size: 14px;
+	text-transform: uppercase;
 }
